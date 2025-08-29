@@ -1,23 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-br"> 
-     <head>
-         <title>sintaxe basica</title>
-         <link rel="stylesheet" type="text/css">
-         <script src="jquery.js"></script>
-         <script>
+<html lang="pt-br">              
+    <head>
+        <title>sintaxe basica</title>
+        <link rel="stylesheet" type="text/css">
+        <script src="jquery.js"></script>
+        <script>
 
-         </script>
+        </script>
+        <style>
+            .site{
+                width:1000px;
+                height:500px;
+                background-color:rgb(0, 0, 0);
+            }
+            .header{
+                width:inherit;
+                height:100px;
+                background-color:rgb(42, 14, 255);
+            }
+            .main{
+                width:inherit;
+                height:350px;
+                background-color:rgb(212, 0, 127);
+            }
+            .footer{
+                width:inherit;
+                height:50px;
+                background-color:rgb(197, 252, 0);
+            }
+            .esquerda{
+                width:20%;
+                height:inherit;
+                background-color:rgb(214, 125, 165);
+                display:inline-block;
+                float:right;
+            }
+            .centro{
+                width:600px;
+                height:inherit;
+                background-image:url("");
+                display:inline-block;
+                float:right;
+                border-radius:10%;
+            }
+            .direita{
+                width:20%;
+                height:inherit;
+                background-color:rgb(69, 64, 18);
+                display:inline-block;
+                float:right;
+             }
+             .foto_esquerda{
+                width:100px;
+                height:100px;
+                background-image: url("https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2024/11/senna.jpg&quot;);
+                margin-left:50px;
+                margin-top:125px;
+             }
+             .foto_direita{
+                width:100px;
+                height:100px;
+                background-image: url("https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1103%2Fr1409735_1296x729_16%2D9.jpg&quot;);
+                margin-left:50px;
+                margin-top:125px;
+             }
+             #paragrafo_direita{
+                color:wheat;
+                font-size:50px;
+                font-family:Arial, Helvetica, sans-serif;
+                text-align:center;
+             }
+        </style>
     </head>
-    <body> 
-      <p>
-        sou a thalia, torço pro flamengo gosto de jogar roblox, amo sair mais cedo e minha cor favorita e preto
-      </p>
-      <hr>
-      <a href=" calculadora.html">calculadora</a></br>
-      <a href=" curriculo.html">curriculo</a></br>
-      <a href=" meusProjetos.html">meusProjetos</a></br>
-      <a href=" sintaxe.html">sintaxe</a></br>
-      <a href=" template.html">template</a></br>
+    <body>
+        <div class="site">
+            <div class="header">                    
+            </div>
+            <div class="main">
+                <div class="esquerda">
+                <p>Verstappen</p>
+                    <div class="foto_esquerda"></div>
+                </div>
+                <div class="centro"></div>
+                <div class="direita">
+                <p id="foto_direita">Senna</p>
+                    <div class="foto_direita"></div>
+                </div>
+            </div>
+            <div class="footer">
+
+           
+            </div>
+        </div>
     </body>
 </html>
-    
